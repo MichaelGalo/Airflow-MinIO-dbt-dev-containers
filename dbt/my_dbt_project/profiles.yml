@@ -1,0 +1,14 @@
+snowflake_dev:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: RUXRWKA-UQ46793
+      user: dbt_user
+      password: NSS_Password123
+      role: dbt_role
+      database: BOOTCAMP_DB
+      warehouse: COMPUTE_WH
+      schema: bronze
+      threads: 1
+      client_session_keep_alive: False
