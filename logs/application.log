@@ -1,0 +1,5 @@
+{"time": "2025-07-22T18:26:11.599977", "logger": "json_logger", "level": "ERROR", "message": "Error occurred while loading API data: S3 operation failed; code: InvalidBucketName, message: The specified bucket is not valid., resource: /bronze_json, request_id: 1854A616C00C0DFB, host_id: dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8", "line": 109}
+{"time": "2025-07-22T18:26:11.600570", "logger": "json_logger", "level": "ERROR", "message": "Failed to upload data to MinIO", "line": 121}
+{"time": "2025-07-22T18:27:46.569621", "logger": "json_logger", "level": "INFO", "message": "Bucket 'bronze' created successfully.", "line": 87}
+{"time": "2025-07-22T18:27:46.583975", "logger": "json_logger", "level": "INFO", "message": "Successfully uploaded space_weather.json to bucket 'bronze'", "line": 104}
+{"time": "2025-07-22T18:27:46.584237", "logger": "json_logger", "level": "INFO", "message": "Data pipeline completed successfully. File: space_weather.json", "line": 118}
