@@ -6,9 +6,9 @@ snowflake_dev:
       account: RUXRWKA-UQ46793
       user: dbt_user
       password: NSS_Password123
-      role: dbt_role
+      role: DBT_ROLE
       database: BOOTCAMP_DB
       warehouse: COMPUTE_WH
-      schema: bronze
+      schema: silver
       threads: 1
       client_session_keep_alive: False

@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: bronze
+    database: BOOTCAMP_DB
+    schema: BRONZE
+    tables:
+      - name: SPACE_WEATHER_RAW
+        description: "This is a source table containing space weather data."
+        # columns:
+        #   - name: messageType
+        #     description: "Type of the space weather message."
+        #   - name: messageID
+        #     description: "Unique identifier for each message."
+        #   - name: messageIssueTime
+        #     description: "Timestamp when the message was issued."
+        #   - name: messageBody
+        #     description: "Content of the space weather message."
