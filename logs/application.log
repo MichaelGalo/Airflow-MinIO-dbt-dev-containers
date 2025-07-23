@@ -3,3 +3,59 @@
 {"time": "2025-07-22T18:27:46.569621", "logger": "json_logger", "level": "INFO", "message": "Bucket 'bronze' created successfully.", "line": 87}
 {"time": "2025-07-22T18:27:46.583975", "logger": "json_logger", "level": "INFO", "message": "Successfully uploaded space_weather.json to bucket 'bronze'", "line": 104}
 {"time": "2025-07-22T18:27:46.584237", "logger": "json_logger", "level": "INFO", "message": "Data pipeline completed successfully. File: space_weather.json", "line": 118}
+{"time": "2025-07-23T15:19:47.061859", "logger": "json_logger", "level": "INFO", "message": "Bucket 'bronze' already exists.", "line": 88}
+{"time": "2025-07-23T15:19:47.080343", "logger": "json_logger", "level": "INFO", "message": "Successfully uploaded space_weather.json to bucket 'bronze'", "line": 103}
+{"time": "2025-07-23T15:57:22.132101", "logger": "json_logger", "level": "INFO", "message": "Connected to MinIO", "line": 65}
+{"time": "2025-07-23T15:57:32.348854", "logger": "json_logger", "level": "ERROR", "message": "An error occurred: local variable 'snowflake' referenced before assignment", "line": 130}
+{"time": "2025-07-23T15:59:05.146369", "logger": "json_logger", "level": "INFO", "message": "Connected to MinIO", "line": 66}
+{"time": "2025-07-23T15:59:21.447715", "logger": "json_logger", "level": "INFO", "message": "Connected to Snowflake", "line": 78}
+{"time": "2025-07-23T16:03:30.463472", "logger": "json_logger", "level": "INFO", "message": "Connected to MinIO", "line": 66}
+{"time": "2025-07-23T16:03:31.609523", "logger": "json_logger", "level": "INFO", "message": "Connected to Snowflake", "line": 78}
+{"time": "2025-07-23T16:03:42.332925", "logger": "json_logger", "level": "ERROR", "message": "An error occurred: Minio.list_objects() got an unexpected keyword argument 'suffix'", "line": 131}
+{"time": "2025-07-23T16:04:05.760745", "logger": "json_logger", "level": "INFO", "message": "Connected to MinIO", "line": 66}
+{"time": "2025-07-23T16:04:06.187697", "logger": "json_logger", "level": "INFO", "message": "Connected to Snowflake", "line": 78}
+{"time": "2025-07-23T16:04:20.964942", "logger": "json_logger", "level": "INFO", "message": "Found JSON file: space_weather.json", "line": 89}
+{"time": "2025-07-23T16:04:35.945402", "logger": "json_logger", "level": "INFO", "message": "Read data from space_weather.json", "line": 97}
+{"time": "2025-07-23T16:04:39.812590", "logger": "json_logger", "level": "INFO", "message": "Data from space_weather.json processed successfully", "line": 100}
+{"time": "2025-07-23T16:04:51.265715", "logger": "json_logger", "level": "ERROR", "message": "Error processing space_weather.json: Expected object or value", "line": 124}
+{"time": "2025-07-23T16:05:44.905552", "logger": "json_logger", "level": "INFO", "message": "Connected to MinIO", "line": 67}
+{"time": "2025-07-23T16:05:45.381163", "logger": "json_logger", "level": "INFO", "message": "Connected to Snowflake", "line": 79}
+{"time": "2025-07-23T16:05:45.410319", "logger": "json_logger", "level": "INFO", "message": "Found JSON file: space_weather.json", "line": 90}
+{"time": "2025-07-23T16:05:45.417069", "logger": "json_logger", "level": "INFO", "message": "Read data from space_weather.json", "line": 98}
+{"time": "2025-07-23T16:05:45.417602", "logger": "json_logger", "level": "INFO", "message": "Data from space_weather.json processed successfully", "line": 101}
+{"time": "2025-07-23T16:05:51.228928", "logger": "json_logger", "level": "ERROR", "message": "Error processing space_weather.json: Expected object or value", "line": 125}
+{"time": "2025-07-23T16:06:44.845595", "logger": "json_logger", "level": "INFO", "message": "Connected to MinIO", "line": 67}
+{"time": "2025-07-23T16:06:45.336855", "logger": "json_logger", "level": "INFO", "message": "Connected to Snowflake", "line": 79}
+{"time": "2025-07-23T16:06:45.359062", "logger": "json_logger", "level": "INFO", "message": "Found JSON file: space_weather.json", "line": 90}
+{"time": "2025-07-23T16:06:45.366208", "logger": "json_logger", "level": "INFO", "message": "Read data from space_weather.json", "line": 98}
+{"time": "2025-07-23T16:06:45.366948", "logger": "json_logger", "level": "INFO", "message": "Data from space_weather.json processed successfully", "line": 101}
+{"time": "2025-07-23T16:06:45.367382", "logger": "json_logger", "level": "INFO", "message": "First 500 chars of data from space_weather.json: [\n  {\n    \"messageType\": \"CME\",\n    \"messageID\": \"20250722-AL-003\",\n    \"messageURL\": \"https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/Alert/40194/1\",\n    \"messageIssueTime\": \"2025-07-22T19:33Z\",\n    \"messageBody\": \"## Community Coordinated Modeling Center Database Of Notifications, Knowledge, Information ( CCMC DONKI )\\n## Message Type: Space Weather Notification - CMEs (Juice)\\n##\\n## Message Issue Date: 2025-07-22T19:33:56Z\\n## Message ID: 20250722-AL-003\\n##\\n## Disclaimer: NOAA's Space Weather ", "line": 103}
+{"time": "2025-07-23T16:07:34.360901", "logger": "json_logger", "level": "INFO", "message": "Connected to MinIO", "line": 67}
+{"time": "2025-07-23T16:07:34.909285", "logger": "json_logger", "level": "INFO", "message": "Connected to Snowflake", "line": 79}
+{"time": "2025-07-23T16:07:34.932313", "logger": "json_logger", "level": "INFO", "message": "Found JSON file: space_weather.json", "line": 90}
+{"time": "2025-07-23T16:07:34.938163", "logger": "json_logger", "level": "INFO", "message": "Read data from space_weather.json", "line": 98}
+{"time": "2025-07-23T16:07:34.938755", "logger": "json_logger", "level": "INFO", "message": "Data from space_weather.json processed successfully", "line": 101}
+{"time": "2025-07-23T16:07:34.939202", "logger": "json_logger", "level": "INFO", "message": "First 500 chars of data from space_weather.json: [\n  {\n    \"messageType\": \"CME\",\n    \"messageID\": \"20250722-AL-003\",\n    \"messageURL\": \"https://kauai.ccmc.gsfc.nasa.gov/DONKI/view/Alert/40194/1\",\n    \"messageIssueTime\": \"2025-07-22T19:33Z\",\n    \"messageBody\": \"## Community Coordinated Modeling Center Database Of Notifications, Knowledge, Information ( CCMC DONKI )\\n## Message Type: Space Weather Notification - CMEs (Juice)\\n##\\n## Message Issue Date: 2025-07-22T19:33:56Z\\n## Message ID: 20250722-AL-003\\n##\\n## Disclaimer: NOAA's Space Weather ", "line": 103}
+{"time": "2025-07-23T16:07:41.577214", "logger": "json_logger", "level": "INFO", "message": "Transformed data from space_weather.json to DataFrame", "line": 107}
+{"time": "2025-07-23T16:07:59.576349", "logger": "json_logger", "level": "ERROR", "message": "Error processing space_weather.json: 002003 (02000): SQL compilation error:\nSchema 'BOOTCAMP_DB.\"Bronze\"' does not exist or not authorized.", "line": 127}
+{"time": "2025-07-23T16:09:38.378256", "logger": "json_logger", "level": "INFO", "message": "Connected to MinIO", "line": 67}
+{"time": "2025-07-23T16:09:39.011303", "logger": "json_logger", "level": "INFO", "message": "Connected to Snowflake", "line": 79}
+{"time": "2025-07-23T16:09:39.045846", "logger": "json_logger", "level": "INFO", "message": "Found JSON file: space_weather.json", "line": 90}
+{"time": "2025-07-23T16:09:39.052922", "logger": "json_logger", "level": "INFO", "message": "Read data from space_weather.json", "line": 98}
+{"time": "2025-07-23T16:09:39.053401", "logger": "json_logger", "level": "INFO", "message": "Data from space_weather.json processed successfully", "line": 101}
+{"time": "2025-07-23T16:09:39.067879", "logger": "json_logger", "level": "INFO", "message": "Transformed data from space_weather.json to DataFrame", "line": 105}
+{"time": "2025-07-23T16:09:51.292724", "logger": "json_logger", "level": "ERROR", "message": "Error processing space_weather.json: too many values to unpack (expected 3)", "line": 125}
+{"time": "2025-07-23T16:11:17.457134", "logger": "json_logger", "level": "INFO", "message": "Connected to MinIO", "line": 67}
+{"time": "2025-07-23T16:11:17.944610", "logger": "json_logger", "level": "INFO", "message": "Connected to Snowflake", "line": 79}
+{"time": "2025-07-23T16:11:17.971386", "logger": "json_logger", "level": "INFO", "message": "Found JSON file: space_weather.json", "line": 90}
+{"time": "2025-07-23T16:11:17.980798", "logger": "json_logger", "level": "INFO", "message": "Read data from space_weather.json", "line": 98}
+{"time": "2025-07-23T16:11:17.981462", "logger": "json_logger", "level": "INFO", "message": "Data from space_weather.json processed successfully", "line": 101}
+{"time": "2025-07-23T16:11:17.994136", "logger": "json_logger", "level": "INFO", "message": "Transformed data from space_weather.json to DataFrame", "line": 105}
+{"time": "2025-07-23T16:11:24.327828", "logger": "json_logger", "level": "ERROR", "message": "Error processing space_weather.json: too many values to unpack (expected 2)", "line": 125}
+{"time": "2025-07-23T16:13:48.190377", "logger": "json_logger", "level": "INFO", "message": "Connected to MinIO", "line": 67}
+{"time": "2025-07-23T16:13:48.657861", "logger": "json_logger", "level": "INFO", "message": "Connected to Snowflake", "line": 79}
+{"time": "2025-07-23T16:13:48.687919", "logger": "json_logger", "level": "INFO", "message": "Found JSON file: space_weather.json", "line": 90}
+{"time": "2025-07-23T16:13:48.737634", "logger": "json_logger", "level": "INFO", "message": "Read data from space_weather.json", "line": 98}
+{"time": "2025-07-23T16:13:48.738184", "logger": "json_logger", "level": "INFO", "message": "Data from space_weather.json processed successfully", "line": 101}
+{"time": "2025-07-23T16:13:48.752279", "logger": "json_logger", "level": "INFO", "message": "Transformed data from space_weather.json to DataFrame", "line": 105}
+{"time": "2025-07-23T16:14:29.721631", "logger": "json_logger", "level": "INFO", "message": "Data from space_weather.json written to Snowflake successfully: 37 rows", "line": 120}
