@@ -108,7 +108,7 @@ def minio_raw_data_to_snowflake():
                     result = write_pandas(
                         conn,
                         df,
-                        table_name="SPACE_WEATHER_RAW",
+                        table_name="space_weather_raw",
                         database=os.getenv("SNOWFLAKE_DATABASE"),
                         auto_create_table=True,
                         schema=os.getenv("SNOWFLAKE_SCHEMA_BRONZE"),

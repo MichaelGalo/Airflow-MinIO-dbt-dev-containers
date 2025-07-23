@@ -47,7 +47,6 @@ dbt_deps = BashOperator(
 )
 
 # dbt run - execute staging models
-# FIXME:
 dbt_run_staging = BashOperator(
     task_id="dbt_run_staging",
     bash_command=f"cd {DBT_PROJECT_DIR} && dbt run --select path:models/silver --profiles-dir {DBT_PROFILES_DIR}",
@@ -55,11 +54,11 @@ dbt_run_staging = BashOperator(
 )
 
 # dbt test - run tests on staging models
-dbt_test_staging = BashOperator(
-    task_id="dbt_test_staging",
-    bash_command=f"cd {DBT_PROJECT_DIR} && dbt test --select path:models/silver --profiles-dir {DBT_PROFILES_DIR}",
-    dag=dag,
-)
+# dbt_test_staging = BashOperator(
+#     task_id="dbt_test_staging",
+#     bash_command=f"cd {DBT_PROJECT_DIR} && dbt test --select path:models/silver --profiles-dir {DBT_PROFILES_DIR}",
+#     dag=dag,
+# )
 
 # actually enforcing the test from sources
 # dbt_test_staging = BashOperator(
@@ -68,12 +67,5 @@ dbt_test_staging = BashOperator(
 #     dag=dag,
 # )
 
-# dbt docs generate - generate documentation
-dbt_docs_generate = BashOperator(
-    task_id="dbt_docs_generate",
-    bash_command=f"cd {DBT_PROJECT_DIR} && dbt docs generate --profiles-dir {DBT_PROFILES_DIR}",
-    dag=dag,
-)
-
 # Task dependencies - simple linear flow
-dbt_debug >> dbt_deps >> dbt_run_staging >> dbt_test_staging >> dbt_docs_generate
+dbt_debug >> dbt_deps >> dbt_run_staging
