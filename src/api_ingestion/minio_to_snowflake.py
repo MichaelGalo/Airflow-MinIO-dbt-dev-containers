@@ -130,6 +130,3 @@ def minio_raw_data_to_snowflake():
         logger.error(f"MinIO S3Error: {e}")
     except Exception as e:
         logger.error(f"An error occurred: {e}")
-
-
-minio_raw_data_to_snowflake()

@@ -59,3 +59,21 @@
 {"time": "2025-07-23T16:13:48.738184", "logger": "json_logger", "level": "INFO", "message": "Data from space_weather.json processed successfully", "line": 101}
 {"time": "2025-07-23T16:13:48.752279", "logger": "json_logger", "level": "INFO", "message": "Transformed data from space_weather.json to DataFrame", "line": 105}
 {"time": "2025-07-23T16:14:29.721631", "logger": "json_logger", "level": "INFO", "message": "Data from space_weather.json written to Snowflake successfully: 37 rows", "line": 120}
+{"time": "2025-07-23T16:24:34.275351", "logger": "json_logger", "level": "INFO", "message": "Bucket 'bronze' already exists.", "line": 51}
+{"time": "2025-07-23T16:24:34.275351", "logger": "json_logger", "level": "INFO", "message": "Bucket 'bronze' already exists.", "line": 51}
+{"time": "2025-07-23T16:24:34.295220", "logger": "json_logger", "level": "INFO", "message": "Successfully uploaded space_weather.json to bucket 'bronze'", "line": 66}
+{"time": "2025-07-23T16:24:34.295220", "logger": "json_logger", "level": "INFO", "message": "Successfully uploaded space_weather.json to bucket 'bronze'", "line": 66}
+{"time": "2025-07-23T16:24:36.461193", "logger": "json_logger", "level": "INFO", "message": "Connected to MinIO", "line": 67}
+{"time": "2025-07-23T16:24:36.461193", "logger": "json_logger", "level": "INFO", "message": "Connected to MinIO", "line": 67}
+{"time": "2025-07-23T16:24:37.096269", "logger": "json_logger", "level": "INFO", "message": "Connected to Snowflake", "line": 79}
+{"time": "2025-07-23T16:24:37.096269", "logger": "json_logger", "level": "INFO", "message": "Connected to Snowflake", "line": 79}
+{"time": "2025-07-23T16:24:37.131755", "logger": "json_logger", "level": "INFO", "message": "Found JSON file: space_weather.json", "line": 90}
+{"time": "2025-07-23T16:24:37.131755", "logger": "json_logger", "level": "INFO", "message": "Found JSON file: space_weather.json", "line": 90}
+{"time": "2025-07-23T16:24:37.156790", "logger": "json_logger", "level": "INFO", "message": "Read data from space_weather.json", "line": 98}
+{"time": "2025-07-23T16:24:37.156790", "logger": "json_logger", "level": "INFO", "message": "Read data from space_weather.json", "line": 98}
+{"time": "2025-07-23T16:24:37.159300", "logger": "json_logger", "level": "INFO", "message": "Data from space_weather.json processed successfully", "line": 101}
+{"time": "2025-07-23T16:24:37.159300", "logger": "json_logger", "level": "INFO", "message": "Data from space_weather.json processed successfully", "line": 101}
+{"time": "2025-07-23T16:24:37.175024", "logger": "json_logger", "level": "INFO", "message": "Transformed data from space_weather.json to DataFrame", "line": 105}
+{"time": "2025-07-23T16:24:37.175024", "logger": "json_logger", "level": "INFO", "message": "Transformed data from space_weather.json to DataFrame", "line": 105}
+{"time": "2025-07-23T16:24:40.414980", "logger": "json_logger", "level": "INFO", "message": "Data from space_weather.json written to Snowflake successfully: 37 rows", "line": 120}
+{"time": "2025-07-23T16:24:40.414980", "logger": "json_logger", "level": "INFO", "message": "Data from space_weather.json written to Snowflake successfully: 37 rows", "line": 120}

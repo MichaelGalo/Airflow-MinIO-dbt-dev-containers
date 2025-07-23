@@ -13,6 +13,7 @@ if workspace_root not in sys.path:
 # Test import after path modification
 try:
     from src.api_ingestion.space_weather import fetch_api_data, load_api_data
+    from src.api_ingestion.minio_to_snowflake import minio_raw_data_to_snowflake
     print("SUCCESS: Import worked after path modification!")
 except ImportError as e:
     print(f"FAILED: Import still failed: {e}")
@@ -47,6 +48,19 @@ def _run_space_weather_ingestion(**kwargs):
         raise Exception("Failed to fetch data from API")
 
 
+def _run_minio_to_snowflake(**kwargs):
+    """Function to run the MinIO to Snowflake ingestion"""
+    ti = kwargs['ti']
+    ti.log.info("Starting MinIO to Snowflake ingestion")
+
+    try:
+        minio_raw_data_to_snowflake()
+        ti.log.info("MinIO to Snowflake ingestion completed successfully")
+    except Exception as e:
+        ti.log.error(f"Error during MinIO to Snowflake ingestion: {e}")
+        raise e
+
+
 with DAG(
     dag_id="ingestion_dag",
     description="Raw data ingestion pipeline - runs every 10 days",
@@ -60,3 +74,11 @@ with DAG(
         python_callable=_run_space_weather_ingestion,
         provide_context=True
     )
+
+    minio_to_snowflake_task = PythonOperator(
+        task_id="minio_to_snowflake_ingestion",
+        python_callable=_run_minio_to_snowflake,
+        provide_context=True
+    )
+
+    space_weather_task >> minio_to_snowflake_task
